@@ -1,0 +1,34 @@
+#include<iostream>
+using namespace std;
+int main(){
+//	int n,i,j;
+//	cin>>n;
+//	for(i=1;i<=n;i++){
+//		for(j=1;j<=n+1-i;j++){
+//			cout<<j<<" ";
+//		}
+//		cout<<endl; 
+//		}
+//	..........
+//	int n,i,j;
+//	cin>>n;
+//	for(i=1;i<=n;i++){
+//		for(j=1;j<=i;j++){
+//			if((j+i)%2==0)
+//			 cout<<"1 ";
+//			else cout<<"0 "; 
+//		}
+//		cout<<endl;
+//	}
+	int n,i,j;
+	cin>>n;
+	for(i=1;i<=n;i++){
+		for(j=1;j<=n-i;j++){
+			cout<<" ";
+		}
+		for(j=1;j<=n;j++){
+			cout<<"*";
+		}
+		cout<<endl;
+	}
+}
